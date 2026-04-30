@@ -1,7 +1,7 @@
 <template>
     <nav class="fixed left-0 right-0 top-0 z-20 flex items-center justify-between border-b border-(--border-panel) bg-[rgba(10,10,15,0.8)] px-4 py-3 backdrop-blur-[20px] md:px-12">
         <a class="inline-flex items-center gap-3 text-[#f0f0f5]" href="#top" aria-label="SISY Network">
-            <img class="h-10 w-10 rounded-full" src="@/assets/imgs/hero.png" alt="" />
+            <img class="h-10 w-10 rounded-full" src="/public/hero.png" alt="" />
             <span class="text-[1.25rem] font-semibold tracking-[-0.02em] whitespace-pre">{{ baseInfo.as_name + "   ·   " + baseInfo.asn_short }}</span>
         </a>
 
