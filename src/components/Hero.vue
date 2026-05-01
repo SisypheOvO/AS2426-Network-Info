@@ -1,5 +1,5 @@
 <template>
-    <section class="px-8 pb-16 pt-40 text-center max-md:px-6 max-md:pb-12 max-md:pt-32">
+    <section id="hero" class="px-8 pb-16 pt-40 text-center max-md:px-6 max-md:pb-12 max-md:pt-32">
         <p class="mb-4 text-[0.72rem] font-bold uppercase tracking-[0.24em] text-[#e8d5b7]">
             <!-- kicker -->
             {{ baseInfo.network_name }} · DN42

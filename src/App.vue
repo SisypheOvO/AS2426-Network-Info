@@ -34,6 +34,6 @@ const { copiedText, tooltip, tooltipStyle, copyValue } = usePanel()
 const spy = useScrollSpy()
 onMounted(() => {
     // observe main sections to keep URL hash in sync
-    spy.init(["policy", "nodes", "contact"])
+    spy.init(["hero", "policy", "nodes", "contact"])
 })
 </script>

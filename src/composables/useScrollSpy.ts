@@ -20,6 +20,14 @@ export default function useScrollSpy() {
     }
 
     function detect() {
+        // if we're near the top, always default to the first section
+        if (window.scrollY < 100) {
+            if (elements.length > 0) {
+                updateHash(elements[0].id)
+            }
+            return
+        }
+
         // touching the bottom of the page should activate the last section
         const atBottom = window.innerHeight + window.scrollY >= document.documentElement.scrollHeight - 2
         if (atBottom && lastId) {
