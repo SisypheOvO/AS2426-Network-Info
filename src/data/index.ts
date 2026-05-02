@@ -1,5 +1,6 @@
 export const myEmail = "i@sisy.cc"
 export const myTelegramUrl = "https://t.me/sisiPh"
+export const myGitHubUrl = "https://github.com/SisypheOvO/SISY-DN42-Website"
 
 export const baseInfo = {
     as_name: "SISY AS",
