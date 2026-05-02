@@ -1,9 +1,18 @@
+// Contact
 export const myEmail = "i@sisy.cc"
 export const myTelegramUrl = "https://t.me/sisiPh"
 
+// Site Info
 export const githubUrl = "https://github.com/SisypheOvO/AS2426-Network-Info"
 export const siteTitle = "SISY AS"
 export const i18nLocalKey = "sisy-dn42-lang"
+
+// Footer Tools
+export const footerTools = [
+    { name: "Looking Glass", url: "https://lg.sisy.cc/" },
+    { name: "Registry Explorer", url: "https://explorer.burble.com/#/4242422426" },
+    { name: "Network Map", url: "https://map.iedon.net/#4242422426" },
+]
 
 export const baseInfo = {
     as_name: "SISY AS",
