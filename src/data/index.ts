@@ -1,18 +1,18 @@
-export const myEmail = "you@example.com"
-export const myTelegramUrl = "https://t.me/your_handle"
+export const myEmail = "i@sisy.cc"
+export const myTelegramUrl = "https://t.me/sisiPh"
 
-export const githubUrl = "https://github.com/your-username/your-repository"
-export const siteTitle = "Example Title"
-export const i18nLocalKey = "network-website-template-lang"
+export const githubUrl = "https://github.com/SisypheOvO/AS2426-Network-Info"
+export const siteTitle = "SISY AS"
+export const i18nLocalKey = "sisy-dn42-lang"
 
 export const baseInfo = {
-    as_name: "Your AS",
-    network_name: "Your Network",
+    as_name: "SISY AS",
+    network_name: "SISY Network",
     from_date: "2026",
-    asn_short: "0000",
-    asn: "AS4242420000",
-    ipv4: "192.0.2.0/24",
-    ipv6: "2001:db8::/32",
+    asn_short: "2426",
+    asn: "AS4242422426",
+    ipv4: "172.23.15.32/27",
+    ipv6: "fd24:ac8e:9e04::/48",
 }
 
 export type Locale = "zh" | "en"
@@ -38,30 +38,30 @@ export interface NodeEntry {
 
 export const nodes: NodeEntry[] = [
     {
-        code: "NODE-01",
-        flag: "🌐",
-        location: "Sample Location, Country",
-        provider: "Sample Provider",
-        endpoint_v4: "4.node.example.com",
-        endpoint_v6: "6.node.example.com",
-        endpoint_dual: "node.example.com",
-        pubkey: "REPLACE_WITH_YOUR_WG_PUBLIC_KEY",
-        lla: "fe80::100",
-        routing4: "172.23.0.2",
+        code: "US-01",
+        flag: "🇺🇸",
+        location: "LA, United States",
+        provider: "DMIT",
+        endpoint_v4: "4.us.sisy.cc",
+        endpoint_v6: "6.us.sisy.cc",
+        endpoint_dual: "us.sisy.cc",
+        pubkey: "ABB1rrObfQgP8mVdMa4DsRMRaqpTM3J3mqLI69zjOBQ=",
+        lla: "fe80::2426:2",
+        routing4: "172.23.15.34",
         routing6: "fd24:ac8e:9e04::2",
         status: "open",
     },
     {
-        code: "NODE-02",
-        flag: "🌐",
-        location: "Sample Location, Country",
-        provider: "Sample Provider",
-        endpoint_v4: "4.node2.example.com",
-        endpoint_v6: "6.node2.example.com",
-        endpoint_dual: "node2.example.com",
-        pubkey: "REPLACE_WITH_YOUR_WG_PUBLIC_KEY",
-        lla: "fe80::101",
-        routing4: "172.23.0.3",
+        code: "JP-01",
+        flag: "🇯🇵",
+        location: "Tokyo, Japan",
+        provider: "ISIF",
+        endpoint_v4: "4.jp.sisy.cc",
+        endpoint_v6: "6.jp.sisy.cc",
+        endpoint_dual: "jp.sisy.cc",
+        pubkey: "Lxky3cJSIBcAbovBWcLg82XldTbzaDoNJwQyf4cpFA8=",
+        lla: "fe80::2426:3",
+        routing4: "172.23.15.35",
         routing6: "fd24:ac8e:9e04::3",
         status: "open",
     },
