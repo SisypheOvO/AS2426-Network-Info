@@ -1,9 +1,18 @@
+// Contact
 export const myEmail = "you@example.com"
 export const myTelegramUrl = "https://t.me/your_handle"
 
+// Site Info
 export const githubUrl = "https://github.com/your-username/your-repository"
 export const siteTitle = "Example Title"
 export const i18nLocalKey = "network-website-template-lang"
+
+// Footer Tools
+export const footerTools = [
+    { name: "Looking Glass", url: "https://lg.example.com/" },
+    { name: "Registry Explorer", url: "https://explorer.burble.com/#/4242420000" },
+    { name: "Network Map", url: "https://map.iedon.net/#4242420000" },
+]
 
 export const baseInfo = {
     as_name: "Your AS",
